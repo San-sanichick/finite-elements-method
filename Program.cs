@@ -9,7 +9,7 @@ double a = 0, b = Math.PI;
 
 double h = (b - a) / (double)N;
 
-// По умолчанию заполнено нулями
+// Zeroes by default
 double[,] u = new double[N, N];
 
 for (int i = 0; i < N; i++)
